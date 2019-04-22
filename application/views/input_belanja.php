@@ -12,7 +12,7 @@
   <title>Aplikasi Koperasi PeTIK</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="<?= base_url();?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url();?>vendor_asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
    <link href="<?= base_url();?>assets/css/custom.css" rel="stylesheet">
 
@@ -71,7 +71,7 @@
     <!-- /.container -->
   </footer>
   <!-- Bootstrap core JavaScript -->
-  <script src="<?= base_url();?>vendor/jquery/jquery.min.js"></script>
-  <script src="<?= base_url();?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url();?>vendor_asset/jquery/jquery.min.js"></script>
+  <script src="<?= base_url();?>vendor_asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
