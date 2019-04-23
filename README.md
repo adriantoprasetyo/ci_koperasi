@@ -2,4 +2,5 @@
 Repository untuk Code Igniter koperasi
 
 Fitur Update:
-1. Belanja
+1. Input Belanja
+2. Riwayat Produk
