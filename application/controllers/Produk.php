@@ -20,6 +20,11 @@ class Produk extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('riwayat_produk');
+		$this->load->model('produk_model');
+		$data['data'] = $this->produk_model->ambil_data();
+		// var_dump($data['data']);
+		// exit();
+
+		$this->load->view('riwayat_produk', $data);
 	}
 }
