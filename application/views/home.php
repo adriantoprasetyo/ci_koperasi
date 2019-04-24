@@ -122,7 +122,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
             <div class="card-body">
-              <a href="#" class="btn btn-info">Produk</a>
+              <a href="<?= base_url(); ?>produk" class="btn btn-info">Produk</a>
             </div>
           </div>
         </div>
