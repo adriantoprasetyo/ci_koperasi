@@ -15,5 +15,6 @@ class Produk extends CI_Controller {
 
 		$this->load->view('header');
 		$this->load->view('riwayat_produk', $data);
+		$this->load->view('footer');
 	}
 }

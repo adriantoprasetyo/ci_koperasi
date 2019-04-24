@@ -15,6 +15,8 @@
   <!-- Bootstrap core CSS -->
   <link href="<?= base_url();?>vendor_asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <link href="<?= base_url();?>assets/css/custom.css" rel="stylesheet">
+
 </head>
 
 <body style="padding-top: 56px;">

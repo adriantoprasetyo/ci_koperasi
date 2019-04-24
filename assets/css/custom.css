@@ -1,7 +1,10 @@
-.footer-stick {
-	position: absolute;  
-	bottom: 0; 
-	width: 100%;
+.default-footer {
+	padding-top: 35px;
+	height: 98px;
+}
+
+.default-container{
+	min-height: 430px;
 }
 
 

@@ -12,8 +12,10 @@ class Belanja extends CI_Controller {
 
 	public function index()
 	{	
+		$data["data"] = json_encode($this->belanja_model->get_data());
 		$this->load->view('header');
-		$this->load->view('input_belanja');
+		$this->load->view('input_belanja', $data);
+		$this->load->view('footer');
 	}
 
 	public function getData()
