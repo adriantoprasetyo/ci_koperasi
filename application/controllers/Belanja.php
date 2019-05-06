@@ -18,11 +18,13 @@ class Belanja extends CI_Controller {
 		$this->load->view('footer');
 	}
 
-	public function getData()
-	{
-		$data["data"] = $this->belanja_model->get_data();
-		echo json_encode($data);
-	}
+	// Gunakan ini jika menggunakan JQuery :
+
+	// public function getData()
+	// {
+	// 	$data["data"] = $this->belanja_model->get_data();
+	// 	echo json_encode($data);
+	// }
 
 	public function simpan_belanja()
 	{
